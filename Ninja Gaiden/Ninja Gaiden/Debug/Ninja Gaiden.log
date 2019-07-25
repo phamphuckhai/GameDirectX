@@ -1,0 +1,14 @@
+﻿Game.obj : error LNK2019: unresolved external symbol _Direct3DCreate9@4 referenced in function "public: void __thiscall CGame::Init(struct HWND__ *)" (?Init@CGame@@QAEXPAUHWND__@@@Z)
+Game.obj : error LNK2019: unresolved external symbol _D3DXCreateSprite@8 referenced in function "public: void __thiscall CGame::Init(struct HWND__ *)" (?Init@CGame@@QAEXPAUHWND__@@@Z)
+Game.obj : error LNK2019: unresolved external symbol _DirectInput8Create@20 referenced in function "public: void __thiscall CGame::InitKeyboard(class CKeyEventHandler *)" (?InitKeyboard@CGame@@QAEXPAVCKeyEventHandler@@@Z)
+Game.obj : error LNK2001: unresolved external symbol _IID_IDirectInput8W
+Game.obj : error LNK2001: unresolved external symbol _GUID_SysKeyboard
+Game.obj : error LNK2001: unresolved external symbol _c_dfDIKeyboard
+Textures.obj : error LNK2019: unresolved external symbol _D3DXGetImageInfoFromFileW@8 referenced in function "public: void __thiscall CTextures::Add(int,wchar_t const *,unsigned long)" (?Add@CTextures@@QAEXHPB_WK@Z)
+Textures.obj : error LNK2019: unresolved external symbol _D3DXCreateTextureFromFileExW@56 referenced in function "public: void __thiscall CTextures::Add(int,wchar_t const *,unsigned long)" (?Add@CTextures@@QAEXHPB_WK@Z)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d9.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxguid.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxerr.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dinput8.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\PHUC KHAI\Desktop\My game\Ninja Gaiden\Debug\Ninja Gaiden.exe : fatal error LNK1120: 8 unresolved externals
